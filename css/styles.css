@@ -1,0 +1,147 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    letter-spacing: 1.4;
+    word-spacing: 1.4;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(224, 226, 94);
+    }
+
+ div .templete img{
+        width: 100%;
+    }
+
+    
+ /* header inicio */
+
+ header{
+     background-color: rgba(255, 255, 255, 0.637);
+     width: 100%;
+     height: 70px;
+     background-origin: border-box;
+     align-content: center;
+     box-sizing: border-box;
+
+ }
+
+ header nav{
+    float: right;
+ }
+header ul li{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.637);
+    border-radius: 6px ;
+    padding: 5px;
+    border: 1px solid #333;
+}
+header a{
+      text-decoration: none;
+      color: black;
+}
+header input {
+      text-decoration: none;
+      color: black;
+      margin: 15px;
+}
+
+header li:hover {
+    color: rgb(255, 255, 255);
+     background-color:rgba(233, 233, 38, 0.856);
+     border: 1px solid white;
+
+}
+
+ /* header fim */
+
+/* main inicio */
+
+article {
+     display: inline-block;
+     width: calc(24% - 16px);
+     vertical-align: top;
+     margin:8px;
+     border: 1px solid #777; 
+     padding: 2px;
+     border-radius: 25px;
+     box-sizing:border-box;
+    
+
+}
+    
+
+li.active {
+    color: rgb(17, 141, 163);
+}
+ 
+
+.artigos h1:hover, h2:hover, h4:hover,h4:hover, p:hover{
+    color: rgba(233, 233, 38, 0.856);
+    text-shadow: #333 1px 1px 2px, #333 0 0 1em, #333 0 0 0.2em;
+}
+
+article img {
+    padding: 10px;
+    border-radius: 13px;
+}
+.artigos h2,  h4, p {
+
+    padding: 8px;
+}
+.artigos p {
+    padding: 8px;
+   
+}
+
+.Artigo{
+    background-color:rgba(255, 255, 255, 0.377);
+}
+.Artigo:hover {
+     background-color:rgba(255, 255, 255, 0.575);;
+      
+}
+
+.card {
+   background-color: rgba(255, 255, 255, 0.377);
+}
+.card:hover {
+     background-color:rgba(255, 255, 255, 0.575);   
+}
+
+    /* main fim */
+
+  /* aside inicio */
+aside {    
+    background-color:rgba(255, 255, 255, 0.377);
+     padding: 35px;
+     width: 25%;
+     height: 1050px;
+     float: right;
+     position: absolute right;
+     margin-top: 10px;
+     margin-right: 8px;
+     border : 1px solid777;
+     border-radius: 25px;
+     box-sizing:border-box;
+ }
+aside:hover {
+    background-color:rgba(255, 255, 255, 0.575); 
+}
+
+aside  a, li{
+    color: black;
+
+}
+  /* aside fim */
+
+/* footer inicio */
+
+footer {
+    background-color:rgba(255, 255, 255, 0.377);;
+    padding: 2px;
+}
+footer:hover {
+     background-color:rgba(255, 255, 255, 0.575);;     
+}
+
+/* footer fim */
+
