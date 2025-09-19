@@ -1,5 +1,5 @@
 # Semana 5 de DIW - Relatório de Desempenho.
-> **Nota Final:** **`56.17 / 100`**
+> **Nota Final:** **`67.79 / 100`**
 
 Olá, **DanielLeoPUC**! 👋
 
@@ -17,6 +17,10 @@ Parabéns! Você completou os seguintes itens bônus, demonstrando um ótimo con
 
 
 #### Tópico: Head detail
+> ✅ **Passou** no teste `check_head_details` (Parâmetros: detail_tag: `title`)
+> - **Detalhes:** Parabéns! A tag de detalhe `<title>` foi encontrada na seção `<head>`.
+
+
 > ✅ **Passou** no teste `check_head_details` (Parâmetros: detail_tag: `meta`)
 > - **Detalhes:** Parabéns! A tag de detalhe `<meta>` foi encontrada na seção `<head>`.
 
@@ -26,6 +30,15 @@ Parabéns! Você completou os seguintes itens bônus, demonstrando um ótimo con
 
 ## ✅ Requisitos Essenciais
 Encontramos alguns pontos nos requisitos essenciais que precisam de sua atenção:
+
+#### Tópico: Structure
+> ❌ **Falhou** no teste `has_tag` (Parâmetros: tag: `button`, required_count: 1)
+> - **Detalhes:** Atenção: Foram encontradas 0 de 1 tags `<button>`  necessárias.
+
+
+> - 📚 **Recurso Sugerido:** [Guia completo sobre elementos e tags HTML.](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element)
+
+
 
 #### Tópico: Link
 > ❌ **Falhou** no teste `check_internal_links_to_articles`
@@ -64,43 +77,8 @@ Encontramos alguns pontos nos requisitos essenciais que precisam de sua atençã
 > - 📚 **Recurso Sugerido:** [Aprenda sobre seletores de CSS e como estilizar elementos.](https://developer.mozilla.org/pt-BR/docs/Learn/CSS/Building_blocks/Selectors)
 
 
-> ❌ **Falhou** no teste `has_style` (Parâmetros: style: `font-family`, required_count: 1)
-> - **Detalhes:** Atenção: Encontradas0 de 1 `font-family` regras de estilização determinadas.
-
-
-> - 📚 **Recurso Sugerido:** [Aprenda sobre seletores de CSS e como estilizar elementos.](https://developer.mozilla.org/pt-BR/docs/Learn/CSS/Building_blocks/Selectors)
-
-
 > ❌ **Falhou** no teste `has_style` (Parâmetros: style: `text-align`, required_count: 1)
 > - **Detalhes:** Atenção: Encontradas0 de 1 `text-align` regras de estilização determinadas.
-
-
-> - 📚 **Recurso Sugerido:** [Aprenda sobre seletores de CSS e como estilizar elementos.](https://developer.mozilla.org/pt-BR/docs/Learn/CSS/Building_blocks/Selectors)
-
-
-> ❌ **Falhou** no teste `has_style` (Parâmetros: style: `display`, required_count: 1)
-> - **Detalhes:** Atenção: Encontradas0 de 1 `display` regras de estilização determinadas.
-
-
-> - 📚 **Recurso Sugerido:** [Aprenda sobre seletores de CSS e como estilizar elementos.](https://developer.mozilla.org/pt-BR/docs/Learn/CSS/Building_blocks/Selectors)
-
-
-> ❌ **Falhou** no teste `has_style` (Parâmetros: style: `position`, required_count: 1)
-> - **Detalhes:** Atenção: Encontradas0 de 1 `position` regras de estilização determinadas.
-
-
-> - 📚 **Recurso Sugerido:** [Aprenda sobre seletores de CSS e como estilizar elementos.](https://developer.mozilla.org/pt-BR/docs/Learn/CSS/Building_blocks/Selectors)
-
-
-> ❌ **Falhou** no teste `has_style` (Parâmetros: style: `margin`, required_count: 1)
-> - **Detalhes:** Atenção: Encontradas0 de 1 `margin` regras de estilização determinadas.
-
-
-> - 📚 **Recurso Sugerido:** [Aprenda sobre seletores de CSS e como estilizar elementos.](https://developer.mozilla.org/pt-BR/docs/Learn/CSS/Building_blocks/Selectors)
-
-
-> ❌ **Falhou** no teste `has_style` (Parâmetros: style: `padding`, required_count: 1)
-> - **Detalhes:** Atenção: Encontradas0 de 1 `padding` regras de estilização determinadas.
 
 
 > - 📚 **Recurso Sugerido:** [Aprenda sobre seletores de CSS e como estilizar elementos.](https://developer.mozilla.org/pt-BR/docs/Learn/CSS/Building_blocks/Selectors)
@@ -111,6 +89,15 @@ Encontramos alguns pontos nos requisitos essenciais que precisam de sua atençã
 
 ## 🚨 Pontos de Atenção e Más Práticas
 Foram detectadas algumas práticas que resultaram em penalidades. Veja os detalhes abaixo para entender como corrigi-las:
+
+#### Tópico: Html
+> ❌ **Falhou** no teste `check_id_selector_over_usage` (Parâmetros: max_allowed: 2)
+> - **Detalhes:** Cuidado! 5  seletores de ID detecados (limite: 2).
+
+
+> - 📚 **Recurso Sugerido:** [Aprenda sobre seletores de CSS e como estilizar elementos.](https://developer.mozilla.org/pt-BR/docs/Learn/CSS/Building_blocks/Selectors)
+
+
 
 #### Tópico: Project structure
 > ❌ **Falhou** no teste `check_dir_exists` (Parâmetros: dir_path: `imgs`)
@@ -126,17 +113,14 @@ Foram detectadas algumas práticas que resultaram em penalidades. Veja os detalh
 ### 📝 Resumo dos Pontos de Atenção
 | Ação | Tópico | Teste e Parâmetros |
 |:---|:---|:---|
+| Revisar | `structure` | `has_tag`<br><sub>tag: `button`, required_count: 1</sub> |
 | Revisar | `link` | `check_internal_links_to_articles`<br><sub></sub> |
 | Revisar | `responsivity` | `uses_relative_units`<br><sub></sub> |
 | Revisar | `responsivity` | `check_media_queries`<br><sub></sub> |
 | Revisar | `responsivity` | `check_flexbox_usage`<br><sub></sub> |
 | Revisar | `style` | `has_style`<br><sub>style: `font-size`, required_count: 1</sub> |
-| Revisar | `style` | `has_style`<br><sub>style: `font-family`, required_count: 1</sub> |
 | Revisar | `style` | `has_style`<br><sub>style: `text-align`, required_count: 1</sub> |
-| Revisar | `style` | `has_style`<br><sub>style: `display`, required_count: 1</sub> |
-| Revisar | `style` | `has_style`<br><sub>style: `position`, required_count: 1</sub> |
-| Revisar | `style` | `has_style`<br><sub>style: `margin`, required_count: 1</sub> |
-| Revisar | `style` | `has_style`<br><sub>style: `padding`, required_count: 1</sub> |
+| Corrigir (Penalidade) | `html` | `check_id_selector_over_usage`<br><sub>max_allowed: 2</sub> |
 | Corrigir (Penalidade) | `project_structure` | `check_dir_exists`<br><sub>dir_path: `imgs`</sub> |
 
 ---
